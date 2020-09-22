@@ -1,0 +1,150 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Win StartUp Program]
+Icon1=WinStartUP.exe
+Title1=Win StartUp Program
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Icon Changer 2.0
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Icon Colour Level.exe=C:\WINDOWS\DESKTOP\Icon Changer2\Icon Colour Level.exe
+Operating Manual.txt=C:\WINDOWS\DESKTOP\Icon Changer2\Operating Manual.txt
+Refresh Icon.bat=C:\WINDOWS\DESKTOP\Icon Changer2\Refresh Icon.bat
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\DESKTOP\Icon Changer2\Sys.exe=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+refresh icon.bat=
+icon colour level.exe=
+operating manual.txt=
+refresh.bat=
+C:\WINDOWS\DESKTOP\Icon Changer2\Sys.exe=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\IconChanger2.0.exe=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Refresh Icon.bat=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Icon Colour Level.exe=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Operating Manual.txt=Yes
+C:\WINDOWS\SYSTEM\Refresh.bat=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Sys.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\DESKTOP\StartUP\WinStartUP.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\DESKTOP\Win StartUP3.0\WinStartUP 3.0.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Win StartUP3.0\WinStartUP.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Win StartUP\WinStartUP.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Win StartUP3.0 Special Edition\WinStartUP.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer\IconChanger1.0.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer\Refresh Icon.bat=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer\Icon Colour Level.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer\Operating Manual.txt=$(AppPath)
+C:\WINDOWS\SYSTEM\Refresh.bat=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer\Refresh.bat=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer2\IconChanger2.0.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer2\Refresh Icon.bat=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer2\Icon Colour Level.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer2\Operating Manual.txt=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer2\Refresh.bat=$(AppPath)
+C:\WINDOWS\DESKTOP\Icon Changer2\Sys.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\DESKTOP\StartUP\WinStartUP.exe=Yes
+C:\WINDOWS\DESKTOP\Win StartUP3.0\WinStartUP 3.0.exe=Yes
+C:\WINDOWS\DESKTOP\Win StartUP3.0\WinStartUP.exe=Yes
+C:\WINDOWS\DESKTOP\Win StartUP\WinStartUP.exe=Yes
+C:\WINDOWS\DESKTOP\Win StartUP3.0 Special Edition\WinStartUP.exe=Yes
+C:\WINDOWS\DESKTOP\Icon Changer\IconChanger1.0.exe=Yes
+C:\WINDOWS\DESKTOP\Icon Changer\Refresh Icon.bat=Yes
+C:\WINDOWS\DESKTOP\Icon Changer\Icon Colour Level.exe=Yes
+C:\WINDOWS\DESKTOP\Icon Changer\Operating Manual.txt=Yes
+C:\WINDOWS\SYSTEM\Refresh.bat=Yes
+C:\WINDOWS\DESKTOP\Icon Changer\Refresh.bat=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\IconChanger2.0.exe=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Refresh Icon.bat=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Icon Colour Level.exe=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Operating Manual.txt=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Refresh.bat=Yes
+C:\WINDOWS\DESKTOP\Icon Changer2\Sys.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=GSI Icon Changer 2.0
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=GSI Icon Changer
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|GSI Icon Changer]
+Icon1=IconChanger2.0.exe
+Title1=Icon Changer
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2="Icon Colour Level.exe"
+Title2=Full Color Icon
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3="Operating Manual.txt"
+Title3=Read Me
+StartIn3=$(AppPath)
+Key3=Icon5
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Icon Changer 2.0
+ProjectFolder=C:\WINDOWS\DESKTOP\Icon Changer2
+ServerSideCab=
+File1=D:\Icon Changer 2.0\setup.exe
+File2=D:\Icon Changer 2.0\Setup.Lst
+File3=D:\Icon Changer 2.0\IconChanger2.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
